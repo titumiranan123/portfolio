@@ -4,7 +4,15 @@ import { RiMenu3Line, RiCloseLine } from 'react-icons/ri';
 
 const Navbar = () => {
     const [isMenuOpen, setIsMenuOpen] = useState(false);
-
+    // const [color, setColor] = useState(false)
+    // const changeColor = () => {
+    //     if (window.scrollY >= 100) {
+    //         setColor(true)
+    //     } else {
+    //         setColor(0)
+    //     }
+    // }
+    // window.addEventListener('scroll', changeColor);
     const handleMenuToggle = () => {
         setIsMenuOpen(!isMenuOpen);
     };

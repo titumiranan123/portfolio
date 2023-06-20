@@ -6,14 +6,12 @@ const Header = () => {
     return (
         <header className="bg-cover md:h-[800px]  bg-center  h-screen relative" style={{ backgroundImage: `url(${header})` }}>
             <div className='bg-style z-10'>
-
             </div>
             <div className="flex flex-col lg:flex-row  items-center lg:justify-between gap-36 md:gap-10 lg:gap-0 px-28 text-white h-full z-20 absolute top-0  w-full">
-
                 <div>
                     <h1 className="text-5xl   text-white font-bold mb-4  w-full">
                         <span>Asalamualikum </span> <br />
-                        I'm a
+                        I&apos;m a
                         <Typewriter
                             options={{
                                 strings: ['Web Devloper', 'Java Script Devloper', 'Web Pentester', 'Ethical Hacker', ' Full Stack Developer', 'Frontend Engineer'],
@@ -36,14 +34,8 @@ const Header = () => {
                 </div>
                 <div className=' w-[250px] relative'>
                     <div className="w-56 border-4 h-[26rem] border-gradient-to-r from-purple-500 via-pink-500 to-red-500 rounded-full ring-4 ring-purple-600 overflow-hidden transform rotate-45">
-
-
                     </div>
                     <img className='rounded-full h-96 absolute w-full top-1 ' src={user} alt="" />
-
-
-
-
 
                 </div>
 
