@@ -8,6 +8,7 @@ const Navbar = () => {
     const handleMenuToggle = () => {
         setIsMenuOpen(!isMenuOpen);
     };
+
     const navItem = <>
         <NavLink
             to="/"
@@ -54,7 +55,7 @@ const Navbar = () => {
 
             </div>
             {
-                isMenuOpen && <div className='absolute top-12 right-4 bg-black p-16 text-xl font-bold'>
+                isMenuOpen && <div className='absolute top-12 right-4 bg-black p-16 text-xl font-bold z-40'>
                     {navItem}
                 </div>
             }
